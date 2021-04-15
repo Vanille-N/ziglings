@@ -14,7 +14,7 @@ sweet of you.)
 This project was directly inspired by the brilliant and fun
 [rustlings](https://github.com/rust-lang/rustlings)
 project for the [Rust](https://www.rust-lang.org/) language.
-Indirect inspiration comes from [Ruby Koans]( http://rubykoans.com/)
+Indirect inspiration comes from [Ruby Koans](http://rubykoans.com/)
 and the Little LISPer/Little Schemer series of books.
 
 ## Intended Audience
@@ -29,6 +29,8 @@ to also check out these Zig language resources for more detail:
 
 * https://ziglearn.org/
 * https://ziglang.org/documentation/master/
+
+Also, the [Zig community](https://github.com/ziglang/zig/wiki/Community) is incredibly friendly and helpful!
 
 ## Getting Started
 
@@ -82,21 +84,21 @@ zig build 19_start
 You can also run without checking for correctness:
 
 ```bash
-zig build 01_test
+zig build 19_test
 ```
 
 Or skip the build system entirely and interact directly with the compiler
 if you're into that sort of thing:
 
 ```bash
-zig run exercises/01_hello.zig
+zig run exercises/001_hello.zig
 ```
 
 Calling all wizards: To prepare an executable for debugging, install it
 to zig-cache/bin with:
 
 ```bash
-zig build 01_install
+zig build 19_install
 ```
 
 ## TODO
@@ -129,13 +131,14 @@ Planned exercises:
 * [x] Optionals
 * [x] Struct methods
 * [x] Slices
-* [x] Many pointers
-* [ ] Unions
-* [ ] Numeric types (integers, floats)
-* [ ] Labelled blocks and loops
-* [ ] Loops as expressions
-* [ ] Comptime
-* [ ] Inline loops (how to DEMO this?)
+* [x] Many-item pointers
+* [x] Unions
+* [x] Numeric types (integers, floats)
+* [x] Labelled blocks and loops
+* [x] Loops as expressions
+* [x] Builtins
+* [ ] Comptime (!)
+* [ ] Inline loops
 * [ ] Anonymous structs
 * [ ] Sentinel termination
 * [ ] Vectors
